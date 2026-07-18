@@ -1,0 +1,29 @@
+{
+  "face_recognition": {
+    "accuracy_mean": 0.9199999999999999,
+    "accuracy_std": 0.1131370849898476,
+    "f1_weighted_mean": 0.8987012987012987,
+    "f1_weighted_std": 0.14325799722740448,
+    "log_loss_mean": 0.5853546236083703,
+    "log_loss_std": 0.19647370877939171,
+    "n_folds": 3
+  },
+  "voiceprint_verification": {
+    "accuracy_mean": 0.8333333333333334,
+    "accuracy_std": 0.09813067629253167,
+    "f1_weighted_mean": 0.8742584575917909,
+    "f1_weighted_std": 0.09461763288713429,
+    "log_loss_mean": 0.9671300534096915,
+    "log_loss_std": 0.04697319527854488,
+    "n_folds": 3
+  },
+  "product_recommendation": {
+    "selected": "RandomForest",
+    "accuracy": 0.23684210526315788,
+    "f1_weighted": 0.20501253132832079,
+    "f1_macro": 0.17904761904761904,
+    "log_loss": 1.7734565745237676,
+    "cv_f1_mean": 0.1570159489633174,
+    "cv_f1_std": 0.02030974465712982
+  }
+}
