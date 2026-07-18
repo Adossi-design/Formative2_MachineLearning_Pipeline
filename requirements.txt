@@ -1,0 +1,24 @@
+# These versions are pinned on purpose so that they all work together.
+# Keep numpy below 2.0 because a newer numpy breaks librosa when it is imported.
+numpy==1.26.4
+scipy==1.12.0
+
+pandas==2.3.0
+scikit-learn==1.8.0
+joblib==1.5.3
+
+# We pin opencv to version 4 because version 5 removed the HOG tool the face model needs.
+opencv-python==4.11.0.86
+
+librosa==0.10.2
+soundfile==0.14.0
+
+# These two let normalize_media.py read HEIC photos and phone audio like mp4 and aac.
+pillow-heif==1.4.0
+imageio-ffmpeg==0.6.0
+
+matplotlib==3.10.9
+seaborn==0.13.2
+
+jupyter
+notebook
